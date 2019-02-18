@@ -51,6 +51,10 @@ a		{color:#1400ff;}
 .intro			{color:#ffffff; font-weight:bold; font-size:22px; line-height:32px; margin-top:40px;}
 .blink			{animation:blinks 1s steps(1,end) 0s infinite;}		@keyframes blinks {80%{opacity:0;}}
 
-.media_wrap		{margin:0 auto; margin-top:40px; display:flex; justify-content:flex-start;; align-content:flex-start; max-height:100vh;}
-.spiel_wrap		{margin:0 auto; margin-top:40px;}
+.media_wrap		{margin:0 auto; margin-top:40px; display:flex; justify-content:flex-start; align-content:flex-start; max-height:100vh;}
+.media_wrap > * {flex:1 100%;}
+
+.spiel_wrap		{margin:0 auto; margin-top:40px; padding:0px 30px;}
 .spiel_wrap	p	{margin-bottom:20px; font-family:mono;}
+
+a.event_link	{display:block; background:url('data/flyer.png')no-repeat top center; background-size:cover;}
