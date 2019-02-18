@@ -2,7 +2,7 @@
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
 
-body	{background:#0900ff; font-family:'Open Sans', sans-serif; font-size:16px; line-height:24px; color:#eee; width:100%; padding:50px;}
+body	{background:#0900ff; font-family:'Open Sans', sans-serif; font-size:22px; line-height:28px; color:#eee; width:100%; padding:50px;}
 /*body	{background:url('data/wrong_bw2.png')no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}*/
 
 
@@ -51,4 +51,6 @@ a		{color:#1400ff;}
 .intro			{color:#ffffff; font-weight:bold; font-size:22px; line-height:32px; margin-top:40px;}
 .blink			{animation:blinks 1s steps(1,end) 0s infinite;}		@keyframes blinks {80%{opacity:0;}}
 
-
+.media_wrap		{margin:0 auto; margin-top:40px; display:flex; justify-content:flex-start;; align-content:flex-start; max-height:100vh;}
+.spiel_wrap		{margin:0 auto; margin-top:40px;}
+.spiel_wrap	p	{margin-bottom:20px; font-family:mono;}
