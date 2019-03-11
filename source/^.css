@@ -2,7 +2,7 @@
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
 
-body	{background:#0900ff; font-family:'Open Sans', sans-serif; font-size:22px; line-height:28px; color:#eee; width:100%; padding:50px;}
+body	{background:#0900ff; font-family:'Open Sans', sans-serif; font-size:22px; line-height:28px; color:#eee; width:100%;}
 /*body	{background:url('data/wrong_bw2.png')no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}*/
 
 
@@ -24,37 +24,66 @@ a		{color:#1400ff;}
 
 /*
 
-	Logo for doing it wrong is an image with two shapes of css leaves
+	Top navigation bar thing, maybe
 	
-	logo_wrap		|	wrapper for everything
-	half-circle	 	|	leaf 1
-	half-circle two	|	leaf 2
-	wrong_white	 	|	black text logo over white circle
-
-*/
-
-.logo_wrap		{position:relative; width:480px; height:480px; margin:0 auto;}
-.half-circle	{display:none; position:absolute; top:0; left:0; width:480px; height:480px; border-radius:480px; border:15px solid #8c5959; border-top-right-radius:0; border-bottom-left-radius:0;}
-.half-circle.two{display:none; position:absolute; top:-80px; left:110px; border-bottom-right-radius:0; border-top-left-radius:0; border-bottom-left-radius:480px; border-top-right-radius:480px;}
-.wrong_white	{position:absolute; top:0; left:0; width:480px; height:480px; border-radius:480px; background:url('data/wrong_logo_500x500_black.png')no-repeat center center #FFF;}
-
-
-/*
-
-	Introduction / invitation on landing page
-	
+	sect			|	sections
+	top_wrap		|	wrapper for everything
+	spiel_wrap		|	short intro to what this is
 	intro	 		|	font style is large for legibility
 	blink			|	deprecated <blink> resurrected in 2018
-
+	
 */
+
+.sect			{margin:0 auto; width:100%;}
+.sect.witch		{background:url('data/wrong_witch.jpg')no-repeat center center #FFF; background-size:cover;}
+.sect.fff		{background:#fff;}
+
+.top_wrap		{margin:0 auto; padding:50px 0; width:960px;}
+.spiel_wrap		{display:inline-block; vertical-align:middle; width:725px; margin:0 auto; padding:0px 0 0 50px; box-sizing:border-box;}
+.spiel_wrap	p	{margin-bottom:20px; font-family:mono;}
+.spiel_wrap.two	p	{background-color:#fff2ac; display:inline; color:#111;}
 
 .intro			{color:#ffffff; font-weight:bold; font-size:22px; line-height:32px; margin-top:40px;}
 .blink			{animation:blinks 1s steps(1,end) 0s infinite;}		@keyframes blinks {80%{opacity:0;}}
 
-.media_wrap		{margin:0 auto; margin-top:40px; display:flex; justify-content:flex-start; align-content:flex-start; max-height:100vh;}
+
+/*
+
+	Logo for doing it wrong is an image with two shapes of css leaves
+	
+	logo_wrap		|	wrapper for logo
+	wrong_white	 	|	black text logo over white circle
+
+*/
+
+.logo_wrap		{display:inline-block; vertical-align:middle; width:200px;}
+.wrong_white	{width:200px; height:200px; border-radius:480px; background:url('data/wrong_logo_500x500_black.png')no-repeat center center #FFF; background-size:cover;}
+
+
+/*
+
+	Media on landing page
+	
+	media_wrap		|	wrapper for media things like iframes; etc
+	event_link		|	links with images as background
+
+*/
+
+.media_wrap		{margin:0 auto; margin-top:40px; display:flex; justify-content:flex-start; align-content:flex-start; height:300px; max-height:100vh;}
 .media_wrap > * {flex:1 100%;}
 
-.spiel_wrap		{margin:0 auto; margin-top:40px; padding:0px 30px;}
-.spiel_wrap	p	{margin-bottom:20px; font-family:mono;}
-
 a.event_link	{display:block; background:url('data/flyer.png')no-repeat top center; background-size:cover;}
+
+
+/*
+
+	Footer type thing
+	
+	foot_wrap		|	wrapper for footer things
+
+*/
+
+.foot_wrap		{margin:0 auto; width:960px; text-align:center; padding:30px 0 0 0; font-size:18px;}
+.foot_wrap img	{vertical-align:middle;}
+.foot_wrap a	{color:#fff; font-weight:bold; font-size:16px; text-decoration:none; border-bottom:3px dotted #0900ff; padding-bottom:10px;}
+.foot_wrap a:hover	{border-bottom:3px dotted #fff;}
