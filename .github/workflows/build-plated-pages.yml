@@ -1,0 +1,21 @@
+name: Build Plated Pages
+on: [push]
+jobs:
+  Build-Plated-Pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Build
+        run: |
+          git config --global user.email "plated@gihub.actions"
+          git config --global user.name "plated"
+          plated/upgrade
+          plated/build
+          cd docs
+          git add .
+          git commit -mauto
+          git push
+        shell: bash
+      - name: Deploy
+        uses: actions/deploy-pages@v1
