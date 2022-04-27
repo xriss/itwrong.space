@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head><title>Your done itwrong!</title>
+<meta name="theme-color" content="#0900ff">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Paytone+One" rel="stylesheet">
+<style>
+
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+
+body	{background:#0900ff; font-family:'Open Sans', sans-serif; font-size:22px; line-height:28px; color:#eee; width:100%;}
+/*body	{background:url('data/wrong_bw2.png')no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}*/
+
+
+/*
+
+	Font styles
+	
+	osans	 		|	default reading font
+	pay				|	header font, same style as logo
+
+*/
+
+h1		{font-size:4em; font-weight:normal; color:#1400ff;}
+h2		{font-size:2em; font-weight:normal;}
+a		{color:#1400ff; -webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; -o-transition:all .2s ease-in-out; -ms-transition:all .2s ease-in-out; transition:all .2s ease-in-out;}
+.osans	{font-family:'Open Sans', sans-serif;}
+.pay	{font-family:'Paytone One', sans-serif;}
+
+
+/*
+
+	Top navigation bar thing, maybe
+	
+	sect			|	sections
+	top_wrap		|	wrapper for everything
+	spiel_wrap		|	short intro to what this is
+	intro	 		|	font style is large for legibility
+	blink			|	deprecated <blink> resurrected in 2018
+	
+*/
+
+.sect			{margin:0 auto; width:100%;}
+.sect.witch		{background:url('data/wrong_witch.jpg')no-repeat center center #FFF; background-size:cover;}
+.sect.fff		{background:#fff;}
+
+.top_wrap		{margin:0 auto; padding:50px 0; width:960px;}
+.spiel_wrap		{display:inline-block; vertical-align:middle; width:666px; margin:0 auto; padding:0px 0 0 50px; box-sizing:border-box;}
+.spiel_wrap	p	{margin-bottom:20px; font-family:mono;}
+.spiel_wrap span	{text-shadow:0px 1px 15px #000000b3;}
+.spiel_wrap.two		{width:740px; padding:0;}
+.spiel_wrap.two	div	{padding-top:10px;}
+.spiel_wrap.two	p	{background-color:#fff2ac; display:inline; color:#111;}
+
+.intro			{color:#ffffff; font-weight:bold; font-size:22px; line-height:32px; margin-top:40px;}
+.blink			{animation:blinks 1s steps(1,end) 0s infinite;}		@keyframes blinks {80%{opacity:0;}}
+
+
+/*
+
+	Logo for doing it wrong is an image with two shapes of css leaves
+	
+	logo_wrap		|	wrapper for logo
+	wrong_white	 	|	black text logo over white circle
+
+*/
+
+.logo_wrap		{display:inline-block; vertical-align:middle; width:200px;}
+.wrong_white	{width:200px; height:200px; border-radius:480px; background:url('data/wrong_logo_500x500_black.png')no-repeat center center #FFF; background-size:cover;}
+
+
+/*
+
+	Media on landing page
+	
+	media_wrap		|	wrapper for media things like iframes; etc
+	event_link		|	links with images as background
+
+*/
+
+.media_wrap		{margin:0 auto; margin-top:40px; display:flex; justify-content:flex-start; align-content:flex-start; height:300px; max-height:100vh;}
+.media_wrap > * {flex:1 100%;}
+
+a.event_link	{display:block; background:url('data/flyer.png')no-repeat top center; background-size:cover;}
+
+
+/*
+
+	Footer type thing
+	
+	foot_wrap		|	wrapper for footer things
+
+*/
+
+.foot_wrap		{margin:0 auto; width:960px; text-align:center; padding:30px 0 0 0; font-size:18px;}
+.foot_wrap img	{vertical-align:middle;}
+.foot_wrap a	{color:#fff; font-weight:bold; font-size:16px; text-decoration:none; border-bottom:3px dotted #0900ff; padding-bottom:10px;}
+.foot_wrap a:hover	{border-bottom:3px dotted #fff;}
+
+</style></head>
+<body><div class="sect">
+	<div class="top_wrap">
+		<div class="logo_wrap"><div class="wrong_white"></div></div><div class="spiel_wrap">
+	<p><b><span>weirdspace</span> is a makerspace in the city of Bradford with a focus on using technology to produce experimental and unconventional projects and art installations.</b></p>
+</div>
+
+	</div>
+</div>
+<div class="sect witch">
+	<div class="top_wrap">
+		<div class="spiel_wrap two">
+	<p>The technology industry is alienating to many minorities and marginalised people.</p>
+	<div><p>We aim to demystify the complexities and elitism of it by sharing experiences and knowledge within an inclusive environment.</p></div>
+</div>
+
+	</div>
+</div>
+<div class="media_wrap">
+<iframe width="auto" height="auto" src="https://www.youtube-nocookie.com/embed/ynzDTgck5RM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a class="event_link" href="https://www.eventbrite.co.uk/e/yorkshire-game-jam-bradford-tickets-56638939593"></a><iframe width="auto" height="auto" src="https://www.youtube-nocookie.com/embed/wIy8rIMin6U?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="auto" height="auto" src="https://www.youtube-nocookie.com/embed/ruZYVibsBGU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="foot_wrap">
+	Supported by <a href="https://www.unltd.org.uk/"><img src="data/unltd_100.png"/></a> and <a href="https://www.facebook.com/30chapelstreet/">30 Chapel Street</a>.
+</div>
+</body>
+</html>
