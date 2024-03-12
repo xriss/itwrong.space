@@ -1,0 +1,76 @@
+{
+ "": {
+  "_dirname": "{_root}",
+  "_filename": "{_root}",
+  "_flags": {
+   "body": {
+    "trim": "ends"
+   },
+   "css": {
+    "same": "append"
+   },
+   "head": {
+    "trim": "ends"
+   },
+   "html": {
+    "trim": "ends"
+   },
+   "title": {
+    "trim": "ends"
+   }
+  },
+  "_root": "./",
+  "_site": "{_root}",
+  "_sourcename": "",
+  "body": "Body is missing.",
+  "css": "/*bump*/\n/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}\n\nbody\t{background:#0900ff; font-family:'Open Sans', sans-serif; font-size:22px; line-height:28px; color:#eee; width:100%;}\n/*body\t{background:url('data/wrong_bw2.png')no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}*/\n\n\n/*\n\n\tFont styles\n\t\n\tosans\t \t\t|\tdefault reading font\n\tpay\t\t\t\t|\theader font, same style as logo\n\n*/\n\nh1\t\t{font-size:4em; font-weight:normal; color:#1400ff;}\nh2\t\t{font-size:2em; font-weight:normal;}\na\t\t{color:#1400ff; -webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; -o-transition:all .2s ease-in-out; -ms-transition:all .2s ease-in-out; transition:all .2s ease-in-out;}\n.osans\t{font-family:'Open Sans', sans-serif;}\n.pay\t{font-family:'Paytone One', sans-serif;}\n\n\n/*\n\n\tTop navigation bar thing, maybe\n\t\n\tsect\t\t\t|\tsections\n\ttop_wrap\t\t|\twrapper for everything\n\tspiel_wrap\t\t|\tshort intro to what this is\n\tintro\t \t\t|\tfont style is large for legibility\n\tblink\t\t\t|\tdeprecated <blink> resurrected in 2018\n\t\n*/\n\n.sect\t\t\t{margin:0 auto; width:100%;}\n.sect.witch\t\t{background:url('data/wrong_witch.jpg')no-repeat center center #FFF; background-size:cover;}\n.sect.fff\t\t{background:#fff;}\n\n.top_wrap\t\t{margin:0 auto; padding:50px 0; width:960px;}\n.spiel_wrap\t\t{display:inline-block; vertical-align:middle; width:666px; margin:0 auto; padding:0px 0 0 50px; box-sizing:border-box;}\n.spiel_wrap\tp\t{margin-bottom:20px; font-family:mono;}\n.spiel_wrap span\t{text-shadow:0px 1px 15px #000000b3;}\n.spiel_wrap.two\t\t{width:740px; padding:0;}\n.spiel_wrap.two\tdiv\t{padding-top:10px;}\n.spiel_wrap.two\tp\t{background-color:#fff2ac; display:inline; color:#111;}\n\n.intro\t\t\t{color:#ffffff; font-weight:bold; font-size:22px; line-height:32px; margin-top:40px;}\n.blink\t\t\t{animation:blinks 1s steps(1,end) 0s infinite;}\t\t@keyframes blinks {80%{opacity:0;}}\n\n\n/*\n\n\tLogo for doing it wrong is an image with two shapes of css leaves\n\t\n\tlogo_wrap\t\t|\twrapper for logo\n\twrong_white\t \t|\tblack text logo over white circle\n\n*/\n\n.logo_wrap\t\t{display:inline-block; vertical-align:middle; width:200px;}\n.wrong_white\t{width:200px; height:200px; border-radius:480px; background:url('data/wrong_logo_500x500_black.png')no-repeat center center #FFF; background-size:cover;}\n\n\n/*\n\n\tMedia on landing page\n\t\n\tmedia_wrap\t\t|\twrapper for media things like iframes; etc\n\tevent_link\t\t|\tlinks with images as background\n\n*/\n\n.media_wrap\t\t{margin:0 auto; margin-top:40px; display:flex; justify-content:flex-start; align-content:flex-start; height:300px; max-height:100vh;}\n.media_wrap > * {flex:1 100%;}\n\na.event_link\t{display:block; background:url('data/flyer.png')no-repeat top center; background-size:cover;}\n\n\n/*\n\n\tFooter type thing\n\t\n\tfoot_wrap\t\t|\twrapper for footer things\n\n*/\n\n.foot_wrap\t\t{margin:0 auto; width:960px; text-align:center; padding:30px 0 0 0; font-size:18px;}\n.foot_wrap img\t{vertical-align:middle;}\n.foot_wrap a\t{color:#fff; font-weight:bold; font-size:16px; text-decoration:none; border-bottom:3px dotted #0900ff; padding-bottom:10px;}\n.foot_wrap a:hover\t{border-bottom:3px dotted #fff;}\n",
+  "head": "<title>{title}</title>\n<meta name=\"theme-color\" content=\"#0900ff\">\n<link href=\"https://fonts.googleapis.com/css?family=Open+Sans|Paytone+One\" rel=\"stylesheet\">\n<style>\n{css}\n</style>",
+  "html": "<!DOCTYPE html>\n<html>\n<head>{head}</head>\n<body>{body}</body>\n</html>",
+  "title": "Title is missing."
+ },
+ "^": {
+  "_dirname": "{_root}^",
+  "_filename": "{_root}^",
+  "_root": "../",
+  "_site": "{_root}",
+  "_sourcename": "^/."
+ },
+ "data": {
+  "_dirname": "{_root}data",
+  "_filename": "{_root}data",
+  "_root": "../",
+  "_site": "{_root}",
+  "_sourcename": "data/."
+ },
+ "data/twine": {
+  "_dirname": "{_root}data/twine",
+  "_filename": "{_root}data/twine",
+  "_root": "../../",
+  "_site": "{_root}",
+  "_sourcename": "data/twine/."
+ },
+ "index.html": {
+  "_dirname": "{_root}",
+  "_filename": "{_root}index.html",
+  "_flags": {
+   "body": {
+    "form": "raw",
+    "trim": "ends"
+   },
+   "title": {
+    "trim": "ends"
+   }
+  },
+  "_output_chunkname": "html",
+  "_output_filename": "index.html",
+  "_root": "./",
+  "_site": "{_root}",
+  "_sourcename": "index.^.html",
+  "about_1": "<div class=\"spiel_wrap\">\n\t<p><b><span>weirdspace</span> is not a makerspace in the city of Bradford with a focus on using technology to produce experimental and unconventional projects and art installations.</b></p>\n</div>\n",
+  "about_2": "<div class=\"spiel_wrap two\">\n\t<p>The technology industry is alienating to many minorities and marginalised people.</p>\n\t<div><p>We aim to demystify the complexities and elitism of it by sharing experiences and knowledge within an inclusive environment.</p></div>\n</div>\n",
+  "about_3": "<div class=\"foot_wrap\">\n\tSupported by <a href=\"https://www.unltd.org.uk/\"><img src=\"data/unltd_100.png\"/></a> and <a href=\"https://www.facebook.com/30chapelstreet/\">30 Chapel Street</a>.\n</div>\n",
+  "body": "<div class=\"sect\">\n\t<div class=\"top_wrap\">\n\t\t<div class=\"logo_wrap\"><div class=\"wrong_white\"></div></div>{about_1}\n\t</div>\n</div>\n<div class=\"sect witch\">\n\t<div class=\"top_wrap\">\n\t\t{about_2}\n\t</div>\n</div>\n<div class=\"media_wrap\">\n<iframe width=\"auto\" height=\"auto\" src=\"https://www.youtube-nocookie.com/embed/ynzDTgck5RM?rel=0&amp;controls=0&amp;showinfo=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><a class=\"event_link\" href=\"https://www.eventbrite.co.uk/e/yorkshire-game-jam-bradford-tickets-56638939593\"></a><iframe width=\"auto\" height=\"auto\" src=\"https://www.youtube-nocookie.com/embed/wIy8rIMin6U?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><iframe width=\"auto\" height=\"auto\" src=\"https://www.youtube-nocookie.com/embed/ruZYVibsBGU?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n{about_3}",
+  "title": "Your done itwrong!",
+  "un": "<div class=\"intro\">\n\t------- <span class=\"blink\">welcome and goodbye</span>\n\t<div>------- we would like to invite you</div>\n\t<div>------- to a new place</div>\n\t<div>------- to experiment</div>\n\t<div>------- to make</div>\n\t<div>------- to play</div>\n\t<div>------- to learn</div>\n\t<div>------- and be creative</div>\n\t------- <span class=\"blink\">welcome and goodbye</span>\n</div>\n"
+ }
+}
